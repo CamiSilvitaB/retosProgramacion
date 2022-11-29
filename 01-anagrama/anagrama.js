@@ -16,3 +16,16 @@ Enunciado: Escribe una función que reciba dos palabras (String) y retorne verda
 let word1 = prompt('Escriba la primer palabra del Anagrama')
 let word2 = prompt('Escriba la segunda palagra del Anagrama')
 
+function anagrama () {
+  if (word1.length === word2.length) {
+    const  letters1 = word1.split('').sort().toString ()
+    const  letters2 = word2.split('').sort().toString()
+    
+    const isAnagrama = letters1 == letters2
+    console.log(isAnagrama)
+  } else {
+    console.log('Tus palabras NO son un Anagrama')
+  }
+}
+
+anagrama()
