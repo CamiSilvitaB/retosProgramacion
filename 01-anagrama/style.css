@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  margin: 0 auto;
+  font-family: monospace;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 600px ;
+  height: 300px;
+  padding: 20px;
+  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; 
+}
+
+.card h1 {
+  color: rgb(167, 100, 126);
+}
+.card p {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(89, 128, 162);
+}
+.inputs_container {
+  margin: 25px 0 35px 0 ;
+}
+.inputs_container input{
+  height: 20px;
+}
+
+button {
+  width: 130px;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  background-color: rgb(167, 100, 126);
+  border: none;
+  border-radius: 8px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; 
+  cursor: pointer;
+}

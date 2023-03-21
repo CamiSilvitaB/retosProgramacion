@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <h1>Comprueba si es un anagrama</h1>
-        <p>Escribe dos palabras y comprueba si son un anagrama</p>
+    <div class="card">
+        <h1>¿Son un anagrama?</h1>
+        <p>Escribe dos palabras diferentes y comprueba si son un anagrama</p>
         
-        <div>
-            <input type="text" id="word1">
-            <input type="text" id="word2">
+        <div class="inputs_container">
+            <input type="text" id="input1" placeholder="amor" value="amor">
+            <input type="text" id="input2" placeholder="roma" value="amor">
         </div>
+        <button>Comprobar</button>
     </div>
 
-    <script src="./anagrama.js"></script>
+    <script src="anagrama.js"></script>
 </body>
 </html>

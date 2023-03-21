@@ -13,19 +13,22 @@ Enunciado: Escribe una función que reciba dos palabras (String) y retorne verda
 
 */
 
-let word1 = prompt('Escriba la primer palabra del Anagrama')
-let word2 = prompt('Escriba la segunda palagra del Anagrama')
+let word1 = document.getElementById('input1').value;
+let word2 = document.getElementById('input2').value;
 
 function anagrama () {
   if (word1.length === word2.length) {
     const  letters1 = word1.split('').sort().toString ()
     const  letters2 = word2.split('').sort().toString()
     
-    const isAnagrama = letters1 == letters2
-    console.log(isAnagrama)
+    if (letters1 == letters2) {
+      console.log('tus palabras son un anagrama')
+    } else {
+      console.log('Tus palabras NO son un Anagrama')
+    }
+
   } else {
     console.log('Tus palabras NO son un Anagrama')
   }
 }
-
 anagrama()
