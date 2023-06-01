@@ -9,3 +9,6 @@ Enunciado: Escribe una función que reciba dos palabras (String) y retorne verda
 - Un Anagrama consiste en formar una palabra reordenando TODAS las letras de otra palabra inicial.
 - NO hace falta comprobar que ambas palabras existan.
 - Dos palabras exactamente iguales no son anagrama.
+
+
+Para ver el programa en accion puede ingresar a este link https://codepen.io/CamiSilvitaB/pen/yLRmYyr
